@@ -12,7 +12,7 @@ This repo consists of basic docker code that includes installation and operation
 ``` docker ps -a ``` </br>
 - $docker pull {image}: {version} - Pull Docker images from container registry </br>
 ``` $docker pull nginx:1.25 ```
-- $docker run {name}: {tag} - Creates docker container from given image and starts it </br>
+- $docker run {name}: {tag} - Creates docker container from given image and starts it. *Everytime run command is executed, new container of images is created* </br>
 ``` $docker run nginx:1.25 ```
 - $docker run -d {name}: {tag} - Runs the container in background and prints the container ID </br>
 ``` $docker run -d nginx:1.25 ```
