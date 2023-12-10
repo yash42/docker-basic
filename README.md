@@ -20,4 +20,5 @@ This repo consists of basic docker code that includes installation and operation
 ``` $docker logs (container_ID) ```
 - $docker stop {container}- Stops one or more running container  </br>
 ``` $docker stop 360e72825dff ```
-- $docker run -d -p {host_port}:{containers_port} {image_name}: {image_version} *-p or --publish refers to Publish the container's port to host port*
+- $docker run -d -p {host_port}:{containers_port} {image_name}:{image_version} *-p or --publish refers to Publish the container's port to host port*
+ ``` $docker run -d -p 6000:80 nginx:1.25 ```
