@@ -16,3 +16,6 @@ This repo consists of basic docker code that includes installation and operation
 ``` $docker run nginx:1.25 ```
 - $docker run -d {name}: {tag} - Runs the container in background and prints the container ID </br>
 ``` $docker run -d nginx:1.25 ```
+- $docker logs {container}: View logs from service running inside the container (which are present at the time of execution)
+``` $docker logs (container_ID) ```
+- 
