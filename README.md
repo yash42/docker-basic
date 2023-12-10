@@ -4,3 +4,10 @@ This repo consists of basic docker code that includes installation and operation
 1. Goto https://docs.docker.com/desktop/install/windows-install/. Before downloading make sure your PC meets the "System Requirement" stated in the page. Download Docker desktop installation file.
 2. Follow the setup procedure in windows 11.
 ## Ubuntu 22.04 LTS
+
+----------------------------------------------
+### Syntax
+- $docker images -list docker images </br>
+- $docker ps - docker ps [OPTIONS] -list docker containers </br>
+``` docker ps -a ``` </br>
+- 
