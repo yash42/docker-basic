@@ -10,4 +10,6 @@ This repo consists of basic docker code that includes installation and operation
 - $docker images -list docker images </br>
 - $docker ps - docker ps [OPTIONS] -list docker containers </br>
 ``` docker ps -a ``` </br>
+- $docker pull image: version - pull Docker images from container registry </br>
+``` $docker pull nginx:1.25 ```
 - 
