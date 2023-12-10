@@ -18,4 +18,6 @@ This repo consists of basic docker code that includes installation and operation
 ``` $docker run -d nginx:1.25 ```
 - $docker logs {container}: View logs from service running inside the container (which are present at the time of execution) </br>
 ``` $docker logs (container_ID) ```
-- 
+- $docker stop {container}- Stops one or more running container  </br>
+``` $docker stop 360e72825dff ```
+- $docker run -d -p {host_port}:{containers_port} {image_name}: {image_version} *-p or --publish refers to Publish the container's port to host port*
